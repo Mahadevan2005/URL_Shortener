@@ -60,21 +60,21 @@ Response:
 ```
 
 
-### Installation
+## Installation
 
 ### Clone/download this repository and navigate to assignment directory
 ```bash
-    git clone https://github.com/Mahadevan2005/AI-Merch-Maker-Lite.git
+git clone https://github.com/Mahadevan2005/AI-Merch-Maker-Lite.git
 ```
 
 ### Install dependencies
 ```bash
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 # Start the application
 ```bash
-    python -m flask --app app.main run
+python -m flask --app app.main run
 ```
 
 ### The API will be available at 
@@ -84,7 +84,7 @@ http://localhost:5000
 
 ### Run tests with
 ```bash
-    pytest
+pytest
 ```
 
 <h3 align="center">
