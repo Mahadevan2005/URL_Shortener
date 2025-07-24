@@ -39,12 +39,14 @@ Response:
   "short_code": "abc123",
   "short_url": "http://localhost:5000/abc123"
 }
-
+```
 
 ### 2. Redirect to Origina
-**GET** /<short_code>
-- Redirects to the original URL if found
-- Returns 404 if short code is invalid
+**GET** `/<short_code>`
+```bash
+    - Redirects to the original URL if found
+    - Returns 404 if short code is invalid
+```
 
 ### 3. URL Analytics
 **GET** `/api/stats/<short_code>`  
@@ -55,22 +57,34 @@ Response:
   "clicks": 12,
   "created_at": "2025-07-24T10:30:00"
 }
+```
 
 
 ### Installation
-```bash
-# Clone/download this repository
-# Navigate to the assignment directory
-cd Url Shortener
 
-# Install dependencies
-pip install -r requirements.txt
+### Clone/download this repository and navigate to assignment directory
+```bash
+    git clone https://github.com/Mahadevan2005/AI-Merch-Maker-Lite.git
+```
+
+### Install dependencies
+```bash
+    pip install -r requirements.txt
+```
 
 # Start the application
-python -m flask --app app.main run
+```bash
+    python -m flask --app app.main run
+```
 
-# The API will be available at http://localhost:5000
-# Run tests with: pytest
+### The API will be available at 
+``` bash 
+http://localhost:5000
+```
+
+### Run tests with
+```bash
+    pytest
 ```
 
 <h3 align="center">
